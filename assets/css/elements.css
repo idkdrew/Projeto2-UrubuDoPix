@@ -1,0 +1,83 @@
+*{
+    cursor: url("cursor.svg"), auto;
+}
+
+.cursorPointer{
+    cursor: url("pointer.svg"), progress !important;
+}
+
+i{
+    cursor: url("pointer.svg"), progress !important;
+}
+
+.icon{
+    margin: 0px 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconUrubu{
+    margin: 0px 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: var(--urubu);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+}
+
+input{
+    cursor: url("text.svg"), progress !important;
+}
+
+button{
+    background-color: var(--urubu);
+    border: 1px solid var(--urubuDark);
+    border-radius: 3px;
+    color: var(--urubuDark);
+    font-weight: 500;
+    height: 40px;
+    cursor: url("pointer.svg"), progress !important;
+}
+
+button:hover{
+    background-color: var(--urubuDark);
+    color: var(--white);
+}
+
+.cadastro{
+    color: var(--urubu);
+}
+
+input[type="file"]{
+    display: none;
+}
+
+buttonFile{
+    background-color: var(--urubu);
+    border: 1px solid var(--urubuDark);
+    border-radius: 3px;
+    color: var(--urubuDark);
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    padding: 2px;
+    text-align: center;
+}
+
+buttonFile:hover{
+    background-color: var(--urubuDark);
+    color: var(--white);
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}

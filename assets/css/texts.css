@@ -1,0 +1,29 @@
+a{
+    color: var(--urubuDark);
+    text-decoration: none;
+    font-weight: 600;
+    cursor: url("pointer.svg"), auto !important;
+}
+
+a:hover{
+    color: var(--urubuHover);
+
+}
+
+h2, h5{
+    margin: 1px 0px; 
+}
+
+h1{
+    color: var(--urubu);
+}
+
+h5{
+    color: var(--urubuDark);
+}
+
+p{
+    color: var(--urubuDark);
+    font-weight: 500;
+}
+
