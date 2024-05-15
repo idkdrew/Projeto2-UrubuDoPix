@@ -21,8 +21,13 @@ Atividades de Cada Participante:
 Documentação:
 Para que o projeto funcione, é necessário que o usuário baixe alguma tecnologia de servidor PHP(ex: Apache) e MYSQL, seja pelo xampp ou da maneira que preferir, e também instale o php. Recomendamos que utilize o xampp pela facilidade e por vir com tudo necessário já instalado.
 Ao fazer o download do projeto via terminal git ou diretamente pela página, o usuário deve colocar os arquivos que estão dentro da pasta que foi baixada diretamente no diretório do servidor, por exemplo, copiar e colar os arquivos diretamente nas pasta htdocs (xampp).
-Após o download finalizado, é necessário que abra o workbench do mysql ou phpmyadmin, faça a criação de uma base de dados chamada "urubudopix". Após criado o banco, copie, cole e execute o arquivo sql que está na pasta dentro do banco criado.  
-Agora com o banco criado e com as tabelas prontas, deve-se ir ao navegador até a barra de url e procurar por localhost/.
+Após o download finalizado, é necessário que abra o workbench do mysql ou phpmyadmin, faça a criação de uma base de dados chamada "urubudopix".
+Após criado o banco, copie, cole e execute o arquivo sql que está na pasta dentro do banco criado.  
+Agora copie, cole e execute também o seguinte script sql: 
+
+CREATE USER 'urubu'@'%' IDENTIFIED VIA mysql_native_password USING '**';GRANT SELECT, INSERT, UPDATE, DELETE ON.* TO 'urubu'@'%' REQUIRE NONE WITH MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;
+
+Agora com o banco criado com as tabelas prontas, e o usuario pronto, deve-se ir ao navegador até a barra de url e procurar por localhost/.
 Agora é possível testar a aplicação e suas funcionalidades.
 
 Obrigado! 
