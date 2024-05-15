@@ -2,7 +2,7 @@ Andrew, Cassio e Gabriel
 
 Funcionalidades Faltantes:
 
--Implementação dos controllers em classe.
+- Implementação dos controllers em classe.
 - Finalização de compra com simulação de inserção de "dados bancarios".
 - Implementação de composer.
 
