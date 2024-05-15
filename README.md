@@ -30,4 +30,8 @@ CREATE USER 'urubu'@'%' IDENTIFIED VIA mysql_native_password USING '**';GRANT SE
 Agora com o banco criado com as tabelas prontas, e o usuario pronto, deve-se ir ao navegador até a barra de url e procurar por localhost/.
 Agora é possível testar a aplicação e suas funcionalidades.
 
+Para acessar a área do admin é necessário que se use
+Login: urubu
+Senha: urubu
+
 Obrigado! 
