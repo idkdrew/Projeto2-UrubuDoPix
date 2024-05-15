@@ -13,7 +13,9 @@ Para que o sistema funcione corretamente, é necessário um servidor PHP, onde o
 Atividades de Cada Participante:
 
 -Andrew: Responsável pela implementação da área do cliente, produtos e carrinho.
+
 -Gabriel: Atuou na parte do front-end, desenvolvendo a homepage, sobre, contato e também na conexão e criação do banco de dados.
+
 -Cassio: Encarregado do controle de rotas do sistema e também de toda a área de admin do site.
 
 Documentação:
